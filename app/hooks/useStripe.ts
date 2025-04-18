@@ -17,7 +17,7 @@ export function useStripe() {
     if(!stripe) return;
 
     try {
-      const response = await fetch("/api/stripe/create-pay-checkout", {
+      const response = await fetch("/api/stripe/create-payment-checkout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -28,7 +28,7 @@ export function useStripe() {
       const data = await response.json();
 
       await stripe.redirectToCheckout({
-        sessionId: data.id,
+        sessionId: data.sessionId,
       });
     } catch (error) {
       console.error("Error creating checkout session:", error);
@@ -51,7 +51,7 @@ export function useStripe() {
       const data = await response.json();
 
       await stripe.redirectToCheckout({
-        sessionId: data.id,
+        sessionId: data.sessionId,
       });
     } catch (error) {
       console.error("Error creating checkout session:", error);
@@ -86,8 +86,8 @@ export function useStripe() {
   };
 }
 
-const {
-  createPaymentStipeCheckout,
-  createSubscriptionStripeCheckout,
-  handleCreateStripePortal
-} = useStripe();
+// const {
+//   createPaymentStipeCheckout,
+//   createSubscriptionStripeCheckout,
+//   handleCreateStripePortal
+// } = useStripe();
