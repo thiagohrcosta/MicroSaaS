@@ -50,6 +50,7 @@ Set up once and reuse across multiple MicroSaaS projects to dramatically reduce 
 ```bash
 git clone https://github.com/yourusername/microsaas-boilerplate.git
 cd microsaas-boilerplate
+```
 
 ## 📜 Certificate
 ![image](https://github.com/user-attachments/assets/86fc7fcd-170b-47d9-8322-504851a849cd)
