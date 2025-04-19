@@ -17,7 +17,6 @@ export async function handleStripePayment(event: Stripe.CheckoutSessionCompleted
     }
 
     await db.collection("users").doc(userId).update({
-      stripeCustomerId: event.data.object.customer,
       stripeSubscriptionId: event.data.object.subscription,
       subscriptionStatus: "active",
     })
