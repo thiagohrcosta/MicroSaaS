@@ -1,7 +1,7 @@
 
 # 🚀 MicroSaaS Boilerplate - Serverless Stack
 
-![MicroSaaS Banner](https://micro-saas-nine.vercel.app/banner.png)
+![image](https://github.com/user-attachments/assets/da42711a-ab33-4149-a818-f1afe26815eb)
 
 ## 📖 About the Project
 
