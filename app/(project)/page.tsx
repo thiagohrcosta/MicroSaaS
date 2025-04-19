@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "MicroSaaS",
+  description: "Landing page for the micro SaaS application",
+}
 
 export default function Home() {
   return (
