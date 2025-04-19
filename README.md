@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🚀 MicroSaaS Boilerplate - Serverless Stack
 
-First, run the development server:
+![MicroSaaS Banner](https://micro-saas-nine.vercel.app/banner.png)
+
+## 📖 About the Project
+
+**MicroSaaS Boilerplate** is a modern and scalable foundation for building Serverless SaaS applications. Designed to kickstart your product development, this stack includes essential integrations such as authentication, payments, database, and email — all deployed in a lightning-fast, serverless environment.
+
+This project was developed as part of a  professional **specialization program by Rocketseat’s School of Technology**, focusing on creating production-ready solutions for real-world SaaS platforms.
+
+### 🌟 Key Features
+
+🔐 **Google Authentication**
+Seamless sign-in experience powered by [NextAuth.js](https://next-auth.js.org/).
+
+💳 **Stripe Integration**
+Fully integrated with [Stripe Payments](https://stripe.com/) for handling subscriptions and transactions.
+
+🧠 **Firebase Database**
+Realtime and scalable NoSQL database support via [Firebase Firestore](https://firebase.google.com/docs/firestore).
+
+📤 **Transactional Emails**
+Easily send transactional emails using [Resend](https://resend.com/).
+
+🧱 **Modular & Serverless Architecture**
+Built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/) — enabling serverless functions, optimized performance, and scalability out of the box.
+
+🎯 **Boilerplate for Innovation**
+Set up once and reuse across multiple MicroSaaS projects to dramatically reduce time-to-market.
+
+---
+
+## 🛠 Technologies
+
+- Next.js
+- Firebase
+- Stripe
+- Google Authentication (NextAuth)
+- Resend (Transactional Emails)
+- TypeScript
+- Vercel (Serverless Deployment)
+
+---
+
+## 🔧 Installation & Setup
+
+1️⃣ **Clone the Repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/yourusername/microsaas-boilerplate.git
+cd microsaas-boilerplate
