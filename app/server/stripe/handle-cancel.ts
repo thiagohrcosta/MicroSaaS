@@ -5,8 +5,6 @@ import Stripe from "stripe";
 
 export async function handleStripeCancelSubscription(event: Stripe.CustomerSubscriptionDeletedEvent) {
   console.log("Subscription was canceled!");
-  const metadata = event.data.object.metadata;
-
   const customerId = event.data.object.customer;
 
   const userRef = await db.collection("users").where("stripeCustomerId", "==", customerId).get();
